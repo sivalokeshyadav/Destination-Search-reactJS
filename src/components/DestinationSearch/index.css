@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.app-container {
+  font-family: 'Roboto';
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #000000;
+}
+
+.search-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.input-element {
+  border-radius: 5px;
+  background-color: #252627;
+  border-color: #252627;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
